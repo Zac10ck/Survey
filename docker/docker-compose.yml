@@ -2,15 +2,15 @@ x-environment: &environment
   environment:
     ######################################################## REQUIRED ########################################################
 
-    # The url of your Formbricks instance used in the admin panel
+    # The url of your Medas Survey instance used in the admin panel
     # Set this to your public-facing URL, e.g., example http://localhost:3000 or https://example.com
     WEBAPP_URL: 
 
     # Required for next-auth. Should be the same as WEBAPP_URL
     NEXTAUTH_URL: 
 
-    # PostgreSQL DB for Formbricks to connect to
-    DATABASE_URL: "postgresql://postgres:postgres@postgres:5432/formbricks?schema=public"
+    # PostgreSQL DB for Medas Survey to connect to
+    DATABASE_URL: "postgresql://postgres:postgres@postgres:5432/medassurvey?schema=public"
 
     # NextJS Auth
     # @see: https://next-auth.js.org/configuration/options#nextauth_secret
@@ -34,7 +34,7 @@ x-environment: &environment
 
     ############################################# OPTIONAL (ENTERPRISE EDITION) #############################################
 
-    # Enterprise License Key (More info at: https://formbricks.com/docs/self-hosting/license)
+    # Enterprise License Key (More info at: https://survey.medascloud.com/docs/self-hosting/license)
     # Required to access Enterprise-only features
     # ENTERPRISE_LICENSE_KEY:
 
@@ -166,7 +166,7 @@ x-environment: &environment
 
     ########################################## OPTIONAL (SERVER CONFIGURATION) ###########################################
 
-    # Set the below to 1 to disable Rate Limiting across Formbricks
+    # Set the below to 1 to disable Rate Limiting across Medas Survey
     # RATE_LIMITING_DISABLED: 1
 
     # Set the below to send OpenTelemetry data via OTLP to your collector

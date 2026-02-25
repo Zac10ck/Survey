@@ -5,17 +5,20 @@ export function FormbricksBranding() {
   return (
     <span className="flex justify-center">
       <a
-        href="https://formbricks.com?utm_source=survey_branding"
+        href="https://survey.medascloud.com?utm_source=survey_branding"
         target="_blank"
         tabIndex={-1}
         rel="noopener">
         <p className="text-signature text-xs">
           {t("common.powered_by")}{" "}
           <b>
-            <span className="text-branding-text hover:text-signature">Formbricks</span>
+            <span className="text-branding-text hover:text-signature">Medas Survey</span>
           </b>
         </p>
       </a>
     </span>
   );
 }
+
+// Alias for compatibility
+export const MedasBranding = FormbricksBranding;

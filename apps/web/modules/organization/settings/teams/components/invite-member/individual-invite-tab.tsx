@@ -183,7 +183,7 @@ export const IndividualInviteTab = ({
                 href={
                   isFormbricksCloud
                     ? `/environments/${environmentId}/settings/billing`
-                    : "https://formbricks.com/upgrade-self-hosting-license"
+                    : "https://survey.medascloud.com/upgrade-self-hosting-license"
                 }>
                 {t("common.start_free_trial")}
               </Link>

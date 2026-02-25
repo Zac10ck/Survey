@@ -13,7 +13,7 @@
   "favicon": "/images/favicon.svg",
   "footer": {
     "socials": {
-      "github": "https://github.com/formbricks/formbricks",
+      "github": "https://github.com/Zac10ck/Survey",
       "linkedin": "https://linkedin.com/company/formbricks",
       "x": "https://x.com/formbricks"
     }
@@ -32,12 +32,12 @@
   "navbar": {
     "links": [
       {
-        "href": "https://github.com/formbricks/formbricks/discussions",
+        "href": "https://github.com/Zac10ck/Survey/discussions",
         "label": "Support"
       }
     ],
     "primary": {
-      "href": "https://app.formbricks.com",
+      "href": "https://survey.medascloud.com",
       "label": "Go to app",
       "type": "button"
     }

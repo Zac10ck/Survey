@@ -3,13 +3,13 @@
   "private": true,
   "type": "module",
   "version": "0.1.0",
-  "homepage": "https://formbricks.com",
+  "homepage": "https://survey.medascloud.com",
   "description": "Unified Redis cache for Formbricks",
   "main": "./dist/index.js",
   "types": "./dist/src/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/formbricks/formbricks"
+    "url": "https://github.com/Zac10ck/Survey"
   },
   "keywords": [
     "Formbricks",

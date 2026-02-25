@@ -3,7 +3,7 @@
   "license": "MIT",
   "version": "1.0.4",
   "description": "React UI components for building surveys and forms - includes NPS, rating scales, multi-select, file upload, and more. Built with Radix UI and Tailwind CSS.",
-  "homepage": "https://formbricks.com",
+  "homepage": "https://survey.medascloud.com",
   "type": "module",
   "keywords": [
     "react",
@@ -22,15 +22,15 @@
   ],
   "author": {
     "name": "Formbricks",
-    "url": "https://formbricks.com"
+    "url": "https://survey.medascloud.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/formbricks/formbricks",
+    "url": "https://github.com/Zac10ck/Survey",
     "directory": "packages/survey-ui"
   },
   "bugs": {
-    "url": "https://github.com/formbricks/formbricks/issues"
+    "url": "https://github.com/Zac10ck/Survey/issues"
   },
   "sideEffects": [
     "**/*.css"

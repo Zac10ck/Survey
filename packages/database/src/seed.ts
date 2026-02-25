@@ -165,7 +165,7 @@ const KITCHEN_SINK_QUESTIONS: SurveyQuestion[] = [
     headline: { default: "Check out our documentation!" },
     required: true,
     ctaButtonLabel: { default: "Go to Docs" },
-    buttonUrl: "https://formbricks.com/docs",
+    buttonUrl: "https://survey.medascloud.com/docs",
     buttonExternal: true,
   },
   {

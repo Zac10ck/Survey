@@ -158,7 +158,7 @@ export const ActionSettingsTab = ({
               ) : null}
 
               <Button variant="secondary" asChild>
-                <Link href="https://formbricks.com/docs/actions/no-code" target="_blank">
+                <Link href="https://survey.medascloud.com/docs/actions/no-code" target="_blank">
                   {t("common.read_docs")}
                 </Link>
               </Button>

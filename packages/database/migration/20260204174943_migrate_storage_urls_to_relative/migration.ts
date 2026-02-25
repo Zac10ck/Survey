@@ -3,7 +3,7 @@
  *
  * This migration converts URLs like:
  *   http://localhost:3000/storage/env123/public/image.png
- *   https://app.formbricks.com/storage/env123/public/image.png
+ *   https://survey.medascloud.com/storage/env123/public/image.png
  *
  * To relative paths:
  *   /storage/env123/public/image.png

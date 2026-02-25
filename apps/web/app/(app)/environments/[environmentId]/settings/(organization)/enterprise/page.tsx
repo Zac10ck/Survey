@@ -168,7 +168,7 @@ const Page = async (props) => {
               </p>
               <Button asChild>
                 <Link
-                  href="https://app.formbricks.com/s/clvupq3y205i5yrm3sm9v1xt5"
+                  href="https://survey.medascloud.com/s/clvupq3y205i5yrm3sm9v1xt5"
                   target="_blank"
                   rel="noopener noreferrer nofollow"
                   referrerPolicy="no-referrer">

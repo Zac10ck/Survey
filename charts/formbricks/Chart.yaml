@@ -10,14 +10,14 @@ version: 0.0.0-dev
 # This is the version number of the application being deployed.
 appVersion: "3.7.0"
 
-icon: https://formbricks.com/favicon.ico
+icon: https://survey.medascloud.com/favicon.ico
 
 keywords:
   - formbricks
   - postgresql
   - redis
 
-home: https://formbricks.com/docs/self-hosting/setup/kubernetes
+home: https://survey.medascloud.com/docs/self-hosting/setup/kubernetes
 maintainers:
   - name: Formbricks
     email: info@formbricks.com

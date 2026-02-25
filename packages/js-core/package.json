@@ -5,10 +5,10 @@
   "license": "MIT",
   "version": "1.0.0",
   "description": "Js core for Formbricks that contains the logic for executing the @formbricks/js library and is loaded asynchronously over the Formbricks API.",
-  "homepage": "https://formbricks.com",
+  "homepage": "https://survey.medascloud.com",
   "repository": {
     "type": "git",
-    "url": "https://github.com/formbricks/formbricks"
+    "url": "https://github.com/Zac10ck/Survey"
   },
   "keywords": [
     "Formbricks",

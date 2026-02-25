@@ -13,7 +13,7 @@ export const SecurityListTip = () => {
         <p className="text-sm">
           {t("environments.settings.general.security_list_tip")}{" "}
           <Link
-            href="https://formbricks.com/security#stay-informed-with-formbricks-security-updates"
+            href="https://survey.medascloud.com/security#stay-informed-with-formbricks-security-updates"
             target="_blank"
             rel="noopener noreferrer"
             className="underline hover:text-blue-700">

@@ -65,7 +65,7 @@ const v1ClientEndpoints = {
       tags: ["Client API - Response"],
       servers: [
         {
-          url: "https://app.formbricks.com/api/v2",
+          url: "https://survey.medascloud.com/api/v2",
           description: "Formbricks Client",
         },
       ],
@@ -98,7 +98,7 @@ const v1ClientEndpoints = {
       tags: ["Client API - Response"],
       servers: [
         {
-          url: "https://app.formbricks.com/api/v2",
+          url: "https://survey.medascloud.com/api/v2",
           description: "Formbricks Client",
         },
       ],
@@ -131,7 +131,7 @@ const v1ClientEndpoints = {
       tags: ["Client API - Display"],
       servers: [
         {
-          url: "https://app.formbricks.com/api/v2",
+          url: "https://survey.medascloud.com/api/v2",
           description: "Formbricks Client",
         },
       ],
@@ -166,7 +166,7 @@ const v1ClientEndpoints = {
       tags: ["Client API - Environment"],
       servers: [
         {
-          url: "https://app.formbricks.com/api/v2",
+          url: "https://survey.medascloud.com/api/v2",
           description: "Formbricks Client",
         },
       ],
@@ -199,7 +199,7 @@ const v1ClientEndpoints = {
       tags: ["Client API - User"],
       servers: [
         {
-          url: "https://app.formbricks.com/api/v2",
+          url: "https://survey.medascloud.com/api/v2",
           description: "Formbricks Client",
         },
       ],
@@ -295,7 +295,7 @@ const v1ClientEndpoints = {
                     },
                     updatedFileName: "file--fid--b153ba3e-6602-4bb3-bed9-211b5b1ae463.jpg",
                     fileUrl:
-                      "https://app.formbricks.com/storage/cm1ubebtj000614kqe4hs3c67/private/file--fid--b153ba3e-6602-4bb3-bed9-211b5b1ae463.jpg",
+                      "https://survey.medascloud.com/storage/cm1ubebtj000614kqe4hs3c67/private/file--fid--b153ba3e-6602-4bb3-bed9-211b5b1ae463.jpg",
                   },
                 },
               },
@@ -343,7 +343,7 @@ const v1ClientEndpoints = {
       },
       servers: [
         {
-          url: "https://app.formbricks.com/api/v2",
+          url: "https://survey.medascloud.com/api/v2",
           description: "Formbricks API Server",
         },
       ],

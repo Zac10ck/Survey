@@ -132,13 +132,13 @@ export const MainNavigation = ({
     },
     {
       label: t("common.documentation"),
-      href: "https://formbricks.com/docs",
+      href: "https://survey.medascloud.com/docs",
       target: "_blank",
       icon: ArrowUpRightIcon,
     },
     {
       label: t("common.share_feedback"),
-      href: "https://github.com/formbricks/formbricks/issues",
+      href: "https://github.com/Zac10ck/Survey/issues",
       target: "_blank",
       icon: ArrowUpRightIcon,
     },
@@ -223,7 +223,7 @@ export const MainNavigation = ({
             {/* New Version Available */}
             {!isCollapsed && isOwnerOrManager && latestVersion && !isFormbricksCloud && !isDevelopment && (
               <Link
-                href="https://github.com/formbricks/formbricks/releases"
+                href="https://github.com/Zac10ck/Survey/releases"
                 target="_blank"
                 className="m-2 flex items-center space-x-4 rounded-lg border border-slate-200 bg-slate-100 p-2 text-sm text-slate-800 hover:border-slate-300 hover:bg-slate-200">
                 <p className="flex items-center justify-center gap-x-2 text-xs">

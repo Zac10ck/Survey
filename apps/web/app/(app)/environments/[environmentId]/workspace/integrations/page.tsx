@@ -65,7 +65,7 @@ const Page = async (props) => {
   const appSetupCompleted = !!environment?.appSetupCompleted;
   const integrationCards = [
     {
-      docsHref: "https://formbricks.com/docs/xm-and-surveys/core-features/integrations/zapier",
+      docsHref: "https://survey.medascloud.com/docs/xm-and-surveys/core-features/integrations/zapier",
       docsText: t("common.docs"),
       docsNewTab: true,
       connectHref: "https://zapier.com/apps/formbricks/integrations",
@@ -82,7 +82,7 @@ const Page = async (props) => {
       connectHref: `/environments/${params.environmentId}/workspace/integrations/webhooks`,
       connectText: t("environments.integrations.manage_webhooks"),
       connectNewTab: false,
-      docsHref: "https://formbricks.com/docs/xm-and-surveys/core-features/integrations/webhooks",
+      docsHref: "https://survey.medascloud.com/docs/xm-and-surveys/core-features/integrations/webhooks",
       docsText: t("common.docs"),
       docsNewTab: true,
       label: "Webhooks",
@@ -96,7 +96,7 @@ const Page = async (props) => {
       connectHref: `/environments/${params.environmentId}/workspace/integrations/google-sheets`,
       connectText: `${isGoogleSheetsIntegrationConnected ? t("common.manage") : t("common.connect")}`,
       connectNewTab: false,
-      docsHref: "https://formbricks.com/docs/xm-and-surveys/core-features/integrations/google-sheets",
+      docsHref: "https://survey.medascloud.com/docs/xm-and-surveys/core-features/integrations/google-sheets",
       docsText: t("common.docs"),
       docsNewTab: true,
       label: "Google Sheets",
@@ -110,7 +110,7 @@ const Page = async (props) => {
       connectHref: `/environments/${params.environmentId}/workspace/integrations/airtable`,
       connectText: `${isAirtableIntegrationConnected ? t("common.manage") : t("common.connect")}`,
       connectNewTab: false,
-      docsHref: "https://formbricks.com/docs/xm-and-surveys/core-features/integrations/airtable",
+      docsHref: "https://survey.medascloud.com/docs/xm-and-surveys/core-features/integrations/airtable",
       docsText: t("common.docs"),
       docsNewTab: true,
       label: "Airtable",
@@ -124,7 +124,7 @@ const Page = async (props) => {
       connectHref: `/environments/${params.environmentId}/workspace/integrations/slack`,
       connectText: `${isSlackIntegrationConnected ? t("common.manage") : t("common.connect")}`,
       connectNewTab: false,
-      docsHref: "https://formbricks.com/docs/xm-and-surveys/core-features/integrations/slack",
+      docsHref: "https://survey.medascloud.com/docs/xm-and-surveys/core-features/integrations/slack",
       docsText: t("common.docs"),
       docsNewTab: true,
       label: "Slack",
@@ -135,7 +135,7 @@ const Page = async (props) => {
       disabled: isReadOnly,
     },
     {
-      docsHref: "https://formbricks.com/docs/xm-and-surveys/core-features/integrations/n8n",
+      docsHref: "https://survey.medascloud.com/docs/xm-and-surveys/core-features/integrations/n8n",
       connectText: `${isN8nIntegrationConnected ? t("common.manage") : t("common.connect")}`,
       docsText: t("common.docs"),
       docsNewTab: true,
@@ -149,7 +149,7 @@ const Page = async (props) => {
       disabled: isReadOnly,
     },
     {
-      docsHref: "https://formbricks.com/docs/xm-and-surveys/core-features/integrations/make",
+      docsHref: "https://survey.medascloud.com/docs/xm-and-surveys/core-features/integrations/make",
       docsText: t("common.docs"),
       docsNewTab: true,
       connectHref: "https://www.make.com/en/integrations/formbricks",
@@ -166,7 +166,7 @@ const Page = async (props) => {
       connectHref: `/environments/${params.environmentId}/workspace/integrations/notion`,
       connectText: `${isNotionIntegrationConnected ? t("common.manage") : t("common.connect")}`,
       connectNewTab: false,
-      docsHref: "https://formbricks.com/docs/xm-and-surveys/core-features/integrations/notion",
+      docsHref: "https://survey.medascloud.com/docs/xm-and-surveys/core-features/integrations/notion",
       docsText: t("common.docs"),
       docsNewTab: true,
       label: "Notion",
@@ -177,7 +177,7 @@ const Page = async (props) => {
       disabled: isReadOnly,
     },
     {
-      docsHref: "https://formbricks.com/docs/xm-and-surveys/core-features/integrations/activepieces",
+      docsHref: "https://survey.medascloud.com/docs/xm-and-surveys/core-features/integrations/activepieces",
       docsText: t("common.docs"),
       docsNewTab: true,
       connectHref: "https://www.activepieces.com/pieces/formbricks",
@@ -193,7 +193,7 @@ const Page = async (props) => {
   ];
 
   integrationCards.unshift({
-    docsHref: "https://formbricks.com/docs/app-surveys/quickstart",
+    docsHref: "https://survey.medascloud.com/docs/app-surveys/quickstart",
     docsText: t("common.docs"),
     docsNewTab: true,
     connectHref: `/environments/${params.environmentId}/workspace/app-connection`,

@@ -4,10 +4,10 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "homepage": "https://formbricks.com",
+  "homepage": "https://survey.medascloud.com",
   "repository": {
     "type": "git",
-    "url": "https://github.com/formbricks/formbricks"
+    "url": "https://github.com/Zac10ck/Survey"
   },
   "sideEffects": false,
   "scripts": {
