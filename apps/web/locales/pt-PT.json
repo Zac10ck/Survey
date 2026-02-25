@@ -2296,10 +2296,10 @@
           "link_and_email_surveys_description": "Alcance pessoas em qualquer lugar online."
         },
         "mode": {
-          "medas-survey_cx": "Medas Survey CX",
-          "medas-survey_cx_description": "Inquéritos e relatórios para compreender o que os seus clientes precisam.",
-          "medas-survey_surveys": "Pesquisas Medas Survey",
-          "medas-survey_surveys_description": "Plataforma de pesquisas multiuso para inquéritos web, aplicação e e-mail.",
+          "formbricks_cx": "Medas Survey CX",
+          "formbricks_cx_description": "Inquéritos e relatórios para compreender o que os seus clientes precisam.",
+          "formbricks_surveys": "Pesquisas Medas Survey",
+          "formbricks_surveys_description": "Plataforma de pesquisas multiuso para inquéritos web, aplicação e e-mail.",
           "what_are_you_here_for": "O que o traz aqui?"
         },
         "settings": {

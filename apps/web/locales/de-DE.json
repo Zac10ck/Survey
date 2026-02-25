@@ -2296,10 +2296,10 @@
           "link_and_email_surveys_description": "Erreichen Sie Menschen überall online."
         },
         "mode": {
-          "medas-survey_cx": "Medas Survey CX",
-          "medas-survey_cx_description": "Umfragen und Berichte, um zu verstehen, was Ihre Kunden benötigen.",
-          "medas-survey_surveys": "Medas Survey Umfragen",
-          "medas-survey_surveys_description": "Vielseitige Umfrageplattform für Web-, App- und E-Mail-Umfragen.",
+          "formbricks_cx": "Medas Survey CX",
+          "formbricks_cx_description": "Umfragen und Berichte, um zu verstehen, was Ihre Kunden benötigen.",
+          "formbricks_surveys": "Medas Survey Umfragen",
+          "formbricks_surveys_description": "Vielseitige Umfrageplattform für Web-, App- und E-Mail-Umfragen.",
           "what_are_you_here_for": "Wofür sind Sie hier?"
         },
         "settings": {

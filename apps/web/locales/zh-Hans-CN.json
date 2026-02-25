@@ -2296,10 +2296,10 @@
           "link_and_email_surveys_description": "在任何线上渠道触达用户。"
         },
         "mode": {
-          "medas-survey_cx": "Medas Survey CX",
-          "medas-survey_cx_description": "通过问卷和报告了解客户需求。",
-          "medas-survey_surveys": "Medas Survey Surveys",
-          "medas-survey_surveys_description": "多用途问卷平台，支持网页、应用和邮件问卷。",
+          "formbricks_cx": "Medas Survey CX",
+          "formbricks_cx_description": "通过问卷和报告了解客户需求。",
+          "formbricks_surveys": "Medas Survey Surveys",
+          "formbricks_surveys_description": "多用途问卷平台，支持网页、应用和邮件问卷。",
           "what_are_you_here_for": "你来这里是为了什么？"
         },
         "settings": {

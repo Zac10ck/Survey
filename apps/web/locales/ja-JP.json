@@ -2296,10 +2296,10 @@
           "link_and_email_surveys_description": "オンラインのどこでも人々にリーチ。"
         },
         "mode": {
-          "medas-survey_cx": "Medas Survey CX",
-          "medas-survey_cx_description": "顧客のニーズを理解するためのフォームとレポート。",
-          "medas-survey_surveys": "Medas Survey フォーム",
-          "medas-survey_surveys_description": "ウェブ、アプリ、メールフォーム向けの多目的フォームプラットフォーム。",
+          "formbricks_cx": "Medas Survey CX",
+          "formbricks_cx_description": "顧客のニーズを理解するためのフォームとレポート。",
+          "formbricks_surveys": "Medas Survey フォーム",
+          "formbricks_surveys_description": "ウェブ、アプリ、メールフォーム向けの多目的フォームプラットフォーム。",
           "what_are_you_here_for": "ご利用目的は何ですか？"
         },
         "settings": {
