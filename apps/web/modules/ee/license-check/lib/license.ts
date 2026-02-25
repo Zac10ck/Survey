@@ -1,5 +1,6 @@
 import "server-only";
 import { cache as reactCache } from "react";
+import { createCacheKey } from "@formbricks/cache";
 import {
   TEnterpriseLicenseDetails,
   TEnterpriseLicenseFeatures,
@@ -52,11 +53,14 @@ export class LicenseApiError extends Error {
   }
 }
 
+// Use a fixed identifier for Medas Survey
+const CACHE_IDENTIFIER = "medas-survey";
+
 export const getCacheKeys = () => {
   return {
-    FETCH_LICENSE_CACHE_KEY: "license:status:medas",
-    PREVIOUS_RESULT_CACHE_KEY: "license:previous:medas",
-    FETCH_LOCK_CACHE_KEY: "license:lock:medas",
+    FETCH_LICENSE_CACHE_KEY: createCacheKey.license.status(CACHE_IDENTIFIER),
+    PREVIOUS_RESULT_CACHE_KEY: createCacheKey.license.previous_result(CACHE_IDENTIFIER),
+    FETCH_LOCK_CACHE_KEY: createCacheKey.license.fetch_lock(CACHE_IDENTIFIER),
   };
 };
 
