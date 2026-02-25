@@ -2342,9 +2342,9 @@
   "setup": {
     "intro": {
       "get_started": "Get started",
-      "made_with_love_in_kiel": "Made with 🤍 in Germany",
-      "paragraph_1": "Medas Survey is an Experience Management Suite built on the <b>fastest growing open-source survey platform</b> worldwide.",
-      "paragraph_2": "Run targeted surveys on websites, in apps or anywhere online. Gather valuable insights to <b>craft irresistible experiences</b> for customers, users and employees.",
+      "made_with_love_in_kiel": "Made with 🤍 by Medas Solutions & Abin Abraham",
+      "paragraph_1": "Medas Survey is an <b>Enterprise Survey Platform</b> designed for collecting feedback and insights at scale.",
+      "paragraph_2": "Run targeted surveys on websites, in apps or anywhere online. Gather valuable insights to <b>craft exceptional experiences</b> for customers, users and employees.",
       "paragraph_3": "We are committed to the highest degree of data privacy. Self-host to keep <b>full control over your data</b>.",
       "welcome_to_medas-survey": "Welcome to Medas Survey!"
     },

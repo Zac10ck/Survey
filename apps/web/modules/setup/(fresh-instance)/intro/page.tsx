@@ -4,15 +4,15 @@ import { getTranslate } from "@/lingodotdev/server";
 import { Button } from "@/modules/ui/components/button";
 
 export const metadata: Metadata = {
-  title: "Intro",
-  description: "Open-source Experience Management. Free & open source.",
+  title: "Intro | Medas Survey",
+  description: "Enterprise Survey Platform by Medas Solutions",
 };
 
 export const IntroPage = async () => {
   const t = await getTranslate();
   return (
     <div className="flex flex-col items-center">
-      <h2 className="mb-6 text-xl font-medium">{t("setup.intro.welcome_to_formbricks")}</h2>
+      <h2 className="mb-6 text-xl font-medium">{t("setup.intro.welcome_to_medas-survey")}</h2>
       <div className="mx-auto max-w-sm space-y-4 text-sm leading-6 text-slate-600">
         <p dangerouslySetInnerHTML={{ __html: t("setup.intro.paragraph_1") }} />
         <p dangerouslySetInnerHTML={{ __html: t("setup.intro.paragraph_2") }} />
