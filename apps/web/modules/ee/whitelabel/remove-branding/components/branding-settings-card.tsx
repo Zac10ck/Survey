@@ -13,7 +13,7 @@ interface BrandingSettingsCardProps {
 
 export const BrandingSettingsCard = async ({
   project,
-  environmentId,
+  environmentId: _environmentId,
   isReadOnly,
 }: BrandingSettingsCardProps) => {
   const t = await getTranslate();
